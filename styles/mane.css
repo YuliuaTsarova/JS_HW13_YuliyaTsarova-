@@ -1,0 +1,145 @@
+@import url(reset.css);
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 18px;
+    height: 100%;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 50px;
+
+}
+
+.order {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+
+}
+
+.title {
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    line-height: 16px;
+    padding: 6px;  
+    font-family: Georgia, serif;
+    font-weight: normal;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.25);
+    background-image: linear-gradient(to right, rgb(28, 110, 164) 0%, rgb(35, 136, 203) 50%, rgb(20, 78, 117) 100%);  
+    border: 2px solid rgb(28, 110, 164);
+    text-align: center;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 200px;
+    height: 200px;
+}
+
+.contacts {
+    border: 1px solid black;
+    box-shadow: rgb(0, 0, 0) 5px 5px 15px 5px;
+    width: 100%;
+    height: 100%;
+
+}
+
+input {
+    height: 20px;
+    box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.25);
+}
+
+.form__button {
+    height: 50px;
+    width: 200px;
+    border-radius: 30px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    line-height: 16px;
+    padding: 6px;  
+    font-family: Georgia, serif;
+    font-weight: normal;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    background-image: linear-gradient(to right, rgb(28, 110, 164) 0%, rgb(35, 136, 203) 50%, rgb(20, 78, 117) 100%);
+    box-shadow: rgb(0, 0, 0) 5px 5px 15px 5px;
+    border: 2px solid rgb(28, 110, 164);
+    display: inline-block;
+}
+
+.form__button:hover {
+    background: #1C6EA4;
+}
+
+.form__button:active {
+    background: #144E75;
+}
+
+.contacts__list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.contact__item {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 10px 10px 10px 20px;  
+    background-color: rgba(28,110,164,0.08);
+    box-shadow: 2px 2px 7px 1px rgba(28,110,164,0.08);
+
+}
+
+.buttonContainer {
+    display: flex;
+    gap: 10px;
+    border: hidden;
+}
+
+.contact__button {
+    height: 30px;
+    width: 100px;
+    border-radius: 30px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    line-height: 16px;
+    padding: 6px;  
+    font-family: Georgia, serif;
+    font-weight: normal;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    background-image: linear-gradient(to right, rgb(28, 110, 164) 0%, rgb(35, 136, 203) 50%, rgb(20, 78, 117) 100%);
+    box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.48);
+    border: 2px solid rgb(28, 110, 164);
+    display: inline-block;
+}
+ @media (max-width: 1000px) {
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 45px;
+    }
+    
+ }
